@@ -83,7 +83,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>selectionner ou generer fichier</string>
+     <string>selectionner fichier</string>
     </property>
    </widget>
    <widget class="QPushButton" name="FichierRsa">
@@ -122,7 +122,20 @@
      </rect>
     </property>
     <property name="text">
-     <string>selectionner ou generer cle</string>
+     <string>generer cle</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>220</y>
+      <width>121</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>selectionner cle</string>
     </property>
    </widget>
   </widget>
