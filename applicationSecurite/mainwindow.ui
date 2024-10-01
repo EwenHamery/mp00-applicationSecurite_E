@@ -60,7 +60,7 @@
      </item>
     </layout>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="FichierSha">
     <property name="geometry">
      <rect>
       <x>260</x>
@@ -73,7 +73,7 @@
      <string>selectionner fichier</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="FichierAes">
     <property name="geometry">
      <rect>
       <x>260</x>
@@ -86,7 +86,7 @@
      <string>selectionner ou generer fichier</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_3">
+   <widget class="QPushButton" name="FichierRsa">
     <property name="geometry">
      <rect>
       <x>260</x>
@@ -99,7 +99,7 @@
      <string>selectionner fichier</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_6">
+   <widget class="QPushButton" name="CleRsa">
     <property name="geometry">
      <rect>
       <x>260</x>
@@ -112,7 +112,7 @@
      <string>selectionner ou generer cle</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_7">
+   <widget class="QPushButton" name="CleAes">
     <property name="geometry">
      <rect>
       <x>260</x>

@@ -17,6 +17,23 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+private slots:
+    void on_BtnSHA_clicked();
+
+    void on_BtnAES_clicked();
+
+    void on_BtnRSA_clicked();
+
+    void on_FichierSha_clicked();
+
+    void on_FichierAes_clicked();
+
+    void on_CleAes_clicked();
+
+    void on_FichierRsa_clicked();
+
+    void on_CleRsa_clicked();
+
 private:
     Ui::MainWindow *ui;
 };
