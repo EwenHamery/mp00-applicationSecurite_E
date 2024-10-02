@@ -28,4 +28,5 @@ L'interface graphique à été crée à l'aide de Qt Creator/Design.
 - Appuyez sur *"Sélectionnez fichier"*
 Le HASH du fichier va apparaître sur votre écran.
 
-** /!\ Attention : Pensez à comparer le HASH affiché sur le site "Cyberchef" (Lien dans la liste des logiciels utilisés) /!\ ** 
+> [!WARNING]
+> Pensez à comparer le HASH affiché sur le site "Cyberchef" (Lien dans la liste des logiciels utilisés).
