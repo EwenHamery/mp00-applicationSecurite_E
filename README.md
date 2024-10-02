@@ -22,10 +22,10 @@ Voici la liste des logiciels utilisés durant toute la durée du mini-projet :
 
 L'interface graphique à été crée à l'aide de Qt Creator/Design.
 
-> SHA 256
+> **SHA 256**
 
-- Appuez sur le bouton SHA 256.
-- Appuyez sur "Sélectionnez fichier"
+- Appuez sur le bouton **SHA 256**.
+- Appuyez sur *"Sélectionnez fichier"*
 Le HASH du fichier va apparaître sur votre écran.
 
-/!\ Attention : Pensez à comparer le HASH affiché sur le site "Cyberchef" /!\ 
+** /!\ Attention : Pensez à comparer le HASH affiché sur le site "Cyberchef" (Lien dans la liste des logiciels utilisés) /!\ ** 
