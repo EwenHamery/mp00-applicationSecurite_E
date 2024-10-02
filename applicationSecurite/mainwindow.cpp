@@ -67,13 +67,13 @@ void MainWindow::on_FichierSha_clicked()
     QString fileHash = QFileDialog::getOpenFileName(this, tr("Sélectionner un fichier"), "", tr("Tous les fichiers (*.*);;Fichiers texte (*.txt)"));
     if (!fileHash.isEmpty()) {
         // Convertir QString en std::string si nécessaire
-        std::string filePath = fileHash.toStdString();
+        std::string filePathHash = fileHash.toStdString();
         //std::string monMessageHash = ("C:\\Users\\CIEL23_admin\\Documents\\seq01_compil_cpp\\act05-chiffrementCpp\\attendu_chiffrement\\lib_crypto_ciel\\superMessage.bin");
-        std::cout << cryptHash.CalculateFileSHA256(filePath) << std::endl;
+        std::cout << cryptHash.CalculateFileSHA256(filePathHash) << std::endl;
     }
 }
 
-/*
+
 void MainWindow::on_FichierAes_clicked()
 {
     AesGestion cryptAES;
@@ -91,14 +91,14 @@ void MainWindow::on_CleAes_clicked()
     cryptAES.GenerateAESKey();
     QString fileCleAes = QFileDialog::getOpenFileName(this, tr("Sélectionner un fichier"), "", tr("Tous les fichiers (*.*);;Fichiers texte (*.txt)"));
     if (!fileCleAes.isEmpty()) {
-        std::string filePath = fileCleAes.toStdString();
+        std::string filePathAes = fileCleAes.toStdString();
         std::string cryptAES.SaveAESKeyToFile(fileCleAes);
     }
     //cryptAES.SaveAESKeyToFile(monFichierCle);
     //cryptAES.LoadAESKeyFromFile(monFichierCle);
 
 }
-*/
+
 
 void MainWindow::on_FichierRsa_clicked()
 {
