@@ -16,9 +16,10 @@ MainWindow::MainWindow(QWidget *parent)
     ui->BtnRSA->setVisible(true);
     ui->FichierSha->setVisible(false);
     ui->FichierAes->setVisible(false);
-    ui->CleAes->setVisible(false);
+    ui->GenCleAes->setVisible(false);
     ui->FichierRsa->setVisible(false);
     ui->CleRsa->setVisible(false);
+    ui->SeleltCleAes->setVisible(false);
 }
 
 MainWindow::~MainWindow()
@@ -31,7 +32,8 @@ void MainWindow::on_BtnSHA_clicked()
 {
     ui->FichierSha->setVisible(true);
     ui->FichierAes->setVisible(false);
-    ui->CleAes->setVisible(false);
+    ui->GenCleAes->setVisible(false);
+    ui->SeleltCleAes->setVisible(false);
     ui->FichierRsa->setVisible(false);
     ui->CleRsa->setVisible(false);
 
@@ -42,7 +44,8 @@ void MainWindow::on_BtnAES_clicked()
 {
     ui->FichierSha->setVisible(false);
     ui->FichierAes->setVisible(true);
-    ui->CleAes->setVisible(true);
+    ui->GenCleAes->setVisible(true);
+    ui->SeleltCleAes->setVisible(true);
     ui->FichierRsa->setVisible(false);
     ui->CleRsa->setVisible(false);
 
@@ -53,7 +56,8 @@ void MainWindow::on_BtnRSA_clicked()
 {
     ui->FichierSha->setVisible(false);
     ui->FichierAes->setVisible(false);
-    ui->CleAes->setVisible(false);
+    ui->GenCleAes->setVisible(false);
+    ui->SeleltCleAes->setVisible(false);
     ui->FichierRsa->setVisible(true);
     ui->CleRsa->setVisible(true);
 
@@ -85,17 +89,23 @@ void MainWindow::on_FichierAes_clicked()
 }
 
 
-void MainWindow::on_CleAes_clicked()
+void MainWindow::on_GenCleAes_clicked()
 {
     AesGestion cryptAES;
     cryptAES.GenerateAESKey();
     QString fileCleAes = QFileDialog::getOpenFileName(this, tr("Sélectionner un fichier"), "", tr("Tous les fichiers (*.*);;Fichiers texte (*.txt)"));
     if (!fileCleAes.isEmpty()) {
         std::string filePathAes = fileCleAes.toStdString();
-        std::string cryptAES.SaveAESKeyToFile(fileCleAes);
+        cryptAES.SaveAESKeyToFile(filePathAes);
     }
     //cryptAES.SaveAESKeyToFile(monFichierCle);
     //cryptAES.LoadAESKeyFromFile(monFichierCle);
+
+}
+
+
+void MainWindow::on_SeleltCleAes_clicked()
+{
 
 }
 

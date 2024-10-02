@@ -112,7 +112,7 @@
      <string>selectionner ou generer cle</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="CleAes">
+   <widget class="QPushButton" name="GenCleAes">
     <property name="geometry">
      <rect>
       <x>260</x>
@@ -125,7 +125,7 @@
      <string>generer cle</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="SeleltCleAes">
     <property name="geometry">
      <rect>
       <x>490</x>

@@ -28,11 +28,13 @@ private slots:
 
     void on_FichierAes_clicked();
 
-    void on_CleAes_clicked();
+    void on_GenCleAes_clicked();
 
     void on_FichierRsa_clicked();
 
     void on_CleRsa_clicked();
+
+    void on_SeleltCleAes_clicked();
 
 private:
     Ui::MainWindow *ui;
