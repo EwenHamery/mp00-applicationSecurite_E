@@ -41,6 +41,9 @@ Le HASH du fichier va apparaître sur votre écran.
 - Appuyez sur le bouton *"Générer clé"* ;
 - Appuyez sur le bouton *"Sélectionner fichier"* ;
 - Appuyez sur le bouton *"Chiffrer le fichier"* ;
+- Appuyer sur le bouton *"Déchiffrer le fichier"*;
+
+
 
 
 
