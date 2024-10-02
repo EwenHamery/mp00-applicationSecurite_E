@@ -7,3 +7,12 @@ Voici la fiche recette ainsi que le sprint backlog du projet : https://docs.goog
 Voici le manuel d'utilisation de l'application sécurité. Ce manuel permet de vous guider pour l'utilisation du mini-projet.
 
 Bonne lecture !
+
+### Liste des logiciels utilisés
+
+Voici la liste des logiciels utilisés durant toute la durée du mini-projet : 
+
+- Github : 
+- Visual Studio 2022 :
+- Qt Creator 14.0.1 :
+- Google Sheets : 
