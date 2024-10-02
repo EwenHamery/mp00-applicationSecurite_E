@@ -36,6 +36,8 @@ private slots:
 
     void on_SeleltCleAes_clicked();
 
+    void on_ChiffrAes_clicked();
+
 private:
     Ui::MainWindow *ui;
 };

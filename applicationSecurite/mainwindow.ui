@@ -14,17 +14,17 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="pushButton_4">
+   <widget class="QPushButton" name="ChiffrAes">
     <property name="geometry">
      <rect>
-      <x>320</x>
+      <x>300</x>
       <y>400</y>
-      <width>75</width>
+      <width>121</width>
       <height>24</height>
      </rect>
     </property>
     <property name="text">
-     <string>PushButton</string>
+     <string>chiffrement AES</string>
     </property>
    </widget>
    <widget class="QWidget" name="verticalLayoutWidget">
